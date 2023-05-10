@@ -1,0 +1,52 @@
+summary{
+    list-style: none;
+}
+
+#botonmenu{
+    width: 25%;
+}
+#botonesdiv{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    color: rgb(120, 80, 80);
+}
+
+#departamento{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#panico{
+    align-items: center;
+}
+
+#ada-modal{
+    opacity: 90%;
+}
+
+#vinculos{
+    text-decoration: none;
+    color: black;
+}
+
+#vacunacion{
+    text-align: left;
+}
+
+#zsiqchat{
+    background-color: aqua;
+    margin-left: 50%;
+}
+
+body{
+    background-color: #53B4DA;
+}
+
+#acordeon{
+    opacity: 0.5;
+}

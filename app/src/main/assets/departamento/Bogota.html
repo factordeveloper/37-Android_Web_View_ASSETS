@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <title>Líneas de atención</title>
+    <link  rel="icon"   href="../images/LOGO_3.png" type="image/png" />
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+ <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">   
+
+    <link rel="stylesheet" href="../css/style_lineas.css">
+    <script src="../js/fun.js"></script>
+    <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "4efab862dbc0eaa1ac272d80148c15eb1b965a8c2928354b6a9eebd598974883", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+  </head>
+
+
+<body>
+
+<!-- MODAL DEPARTAMENTOS -->
+<button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#lineas_atencion">
+  <i class="fa-solid fa-location-dot"></i> SELECCIONA TU DEPARTAMENTO
+</button> 
+<!-- Modal -->
+<div class="modal fade" id="lineas_atencion" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="staticBackdropLabel">SELECCIONA TU DEPARTAMENTO</h4>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">     
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Antioquia.html"><i class="fa-solid fa-location-dot"></i> Antioquia</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Arauca.html"><i class="fa-solid fa-location-dot"></i> Arauca</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Atlantico.html"><i class="fa-solid fa-location-dot"></i> Atlántico</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Bogota.html"><i class="fa-solid fa-location-dot"></i> Bogotá</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Bolivar.html"><i class="fa-solid fa-location-dot"></i> Bolívar</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Boyaca.html"><i class="fa-solid fa-location-dot"></i> Boyacá</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Caqueta.html"><i class="fa-solid fa-location-dot"></i> Caquetá</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Casanare.html"><i class="fa-solid fa-location-dot"></i> Casanare</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Cauca.html"><i class="fa-solid fa-location-dot"></i> Cauca</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Cesar.html"><i class="fa-solid fa-location-dot"></i> Cesar</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Cundinamarca.html"><i class="fa-solid fa-location-dot"></i> Cundinamarca</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Huila.html"><i class="fa-solid fa-location-dot"></i> Huila</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/La_Guajira.html"><i class="fa-solid fa-location-dot"></i> La Guajira</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Meta.html"><i class="fa-solid fa-location-dot"></i> Meta</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Putumayo.html"><i class="fa-solid fa-location-dot"></i> Putumayo</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Risaralda.html"><i class="fa-solid fa-location-dot"></i> Risaralda</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Sincelejo.html"><i class="fa-solid fa-location-dot"></i> Sincelejo</a>
+        <a class="dropdown-item fs-4" id="dep" href="../departamento/Valle_del_Cauca.html"><i class="fa-solid fa-location-dot"></i> Valle del Cauca</a>
+</div>
+<div class="modal-footer">    
+</div>
+</div>
+</div>
+</div>
+</div>  
+</div>  
+<h1 style="font-family: corbel;" class="mt-3"> BOGOTÁ</h1> 
+<!--FIN MODAL DEPARTAMENTOS -->
+
+
+<br>
+
+
+
+
+<!--botones del submenu-->    
+<ul class="nav nav-tabs fixed-bottom bg-dark" id="myTab" role="tablist">
+  <button class="btn btn-dark p-2" onclick="window.location.href='../index.html'" id="botonmenu" data-bs-toggle="modal" data-bs-target="#ada_modal" type="button" role="tab" aria-controls="home" aria-selected="true"><h3><i class="fa-solid fa-user-nurse"></i></h3></button>
+  <button class="btn btn-dark p-2" onclick="window.location.href='../desk.html'" id="botonmenu" data-bs-toggle="modal"  type="button" role="tab" aria-controls="profile" aria-selected="false"><h3> <i class="fa-solid fa-newspaper"></i></h3></button>
+  <button class="btn btn-dark p-2" data-bs-target="#lineas_atencion"  id="botonmenu" data-bs-toggle="modal" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false"><h3><i class="fa-solid fa-table-cells"></i></h3></button>
+  
+</ul> 
+<!-- FIN botones del submenu-->
+
+<!--lineas de atención--> 
+<center>
+<div class="container-fluid"> 
+<div class="row">
+
+<!--primer grupo de cuadros-->
+<div class="col-lg-6 mt-0">
+      <img src="../images/purpura.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-1">
+      <img src="../images/123_emergencias.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-2">
+      <img src="../images/linea_diversa.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-3">
+<br>
+      <img src="../images/SergioUrrego.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-4">
+      <img src="../images/7_cups.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-5">
+      <img src="../images/linea psicoactiva.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-6">
+<br>
+     <img src="../images/quiero estar bien.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-7">
+     <img src="../images/linea calma.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-8">
+     <img src="../images/NO ESTAMOS SOLOS.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-9">
+    
+</div>
+<!--segundo grupo de cuadros-->
+<div class="col-lg-6 mt-0">
+      <img src="../images/policia nacional.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-10">
+      <img src="../images/bomberos.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-11">
+      <img src="../images/cruz roja.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-12">
+<br>
+      <img src="../images/el poder de ser escuchado.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-13">
+      <img src="../images/banner 5.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-5">
+      <img src="../images/banner 6.png" alt="" width="30%" type="button" data-bs-toggle="modal" data-bs-target="#btn-6">
+<br>
+     
+</div>       
+</div>
+</div>  
+<br>  
+<br>
+<br>
+  
+            
+</center>  
+
+
+<!-- MODAL ADA-->
+<div class="modal fade" id="ada_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+              
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+<div class="modal-body">
+
+<center>
+
+
+<img src="images/ada.png" width="50%" height="50% alt="" id="panico">
+<br>
+<br>
+<img src="images/lineas_de_atencion.png" width="100%" height="100%" alt="">
+
+</center>
+</div>
+                
+<div class="modal-footer">
+  <div id="botonesdiv">
+        
+</div> 
+</div>
+</div>
+</div>
+</div>   
+<!-- FIN MODAL ADA-->
+
+
+<!--BOGOTA-->
+<!--BOGOTA-->
+<!--BOGOTA-->
+
+
+<!--lineas de atención-->     
+
+<!-- MODAL LINEA PURPURA-->
+<div class="modal fade" id="btn-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+              
+                <h5 class="modal-title" id="exampleModalLabel">LÍNEA PURPURA</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>
+          <h6>La Línea Púrpura Distrital es una iniciativa de la Secretaría de Salud y la Secretaría de la Mujer de Bogotá, que centra sus esfuerzos en la atención a las mujeres. La línea es atendida por psicólogas, enfermeras, abogadas y trabajadoras sociales para ayudar a mujeres en situaciones de violencia, brindar atención y acompañamiento psicosocial y orientar e informar a las mujeres sobre sus derechos fundamentales, sexuales y reproductivos.</h6>
+          <br>
+          <a href="https://api.whatsapp.com/send?phone=+573007551847&text=Necesito%20ayuda!"></a>
+          <h6>Horario 24/7 todo el año</h6>
+          <h6>Cubrimiento: Bogotá</h6> 
+          <br> 
+          <b><H1>ELIGE EL MODO QUE QUIERES USAR</H1></b>
+      </div>
+</center>        
+      
+<!--botones de contacto linea purpura-->      
+<div class="modal-footer">
+  <div id="botonesdiv">
+          <a href="https://api.whatsapp.com/send?phone=+573007551847&text=Necesito%20ayuda!">
+            <button type="button" class="btn btn-success m-3 mt-0"><h1><i class="fa-brands fa-whatsapp"></i></i></h1></button>
+          </a>
+        
+          <a href="tel:01 8000 11 21 37"><button type="button" class="btn btn-success m-3 mt-0"><h1><i class="fa-solid fa-phone"></i></h1></button></i>
+          </a>
+
+          <a href="mailto:ldpurpura@sdmujer.gov.co"><button type="button" class="btn btn-success m-3 mt-0"><h1><i class="fa-solid fa-envelope"></i></h1></button>
+          </a> 
+
+  </div> 
+</div>
+    </div>
+  </div>
+</div>   
+<!--botones de contacto linea purpura--> 
+     
+
+<!-- MODAL LINEA 123-->
+    <div class="modal fade" id="btn-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LÍNEA 123</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>        
+          <h6>El número telefónico 123 es una línea de emergencia nacional que reúne todos los servicios de seguridad y emergencia del país en uno solo. En caso de tener una situación que comprometa su salud mental, usted podrá comunicarse a esta línea donde profesionales capacitados estarán dispuestos las 24 horas del día y los siete días de la semana, para atender cualquier solicitud o urgencia que usted tenga.</h6>
+          <br>        
+          <h6>Horario 24/7 todo el año</h6>
+          <h6>Cubrimiento: Nacional</h6> 
+          <br>
+          <H1>ELIGE EL MODO QUE SUIERES USAR</H1>
+          </div>
+</center>
+      
+<!--botones de contacto 123--> 
+<div class="modal-footer">
+<div id="botonesdiv">             
+        
+        <a href="tel:123"><button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+        </a>
+
+</div>              
+</div>
+</div>
+</div>
+</div>
+<!--botones de contacto 123-->
+
+<!-- MODAL LINEA DIVERSA-->
+    <div class="modal fade" id="btn-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LÍNEA DIVERSA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>
+        <h6>La línea diversa de la Secretaría Distrital de Integración Social de Bogotá se enfoca en la prestación de asesoría a la comunidad LGBTIQ+. Su eje principal es la intervención en situaciones de crisis o emergencia emocional que requieran atención inmediata. Así mismo, brinda orientación y ayuda en casos de violencia, dudas y resolución de conflictos.</h6>
+        <br>
+        <h6>Horario: Lunes a viernes de 8:00am-6:00pm</h6>
+        <h6>Sabado de 10:00am-4:00pm</h6>
+        <h6>Cubrimiento: Bogotá</h6> 
+        <br>
+        <H1>ELIGE EL MODO QUE SUIERES USAR</H1>
+        </div>
+</center>
+
+<!--botones de contacto linea diversa-->
+<div class="modal-footer">
+<div id="botonesdiv">
+          
+          <a href="https://api.whatsapp.com/send?phone=+573108644214&text=Necesito%20ayuda%2">
+          <button type="button" class="btn btn-success m-3 mt-0"><h1><i class="fa-brands fa-whatsapp"></i></h1></button>
+          </a>
+        
+          <a href="tel:310 864 42 14">
+          <button type="button" class="btn btn-success m-3 mt-0"><h1><i class="fa-solid fa-phone"></i></h1></button></i>
+          </a>
+
+</div>      
+</div>
+</div>
+</div>
+</div>
+<!--botones de contacto linea diversa-->
+
+<!-- MODAL FUNDACION SERGIO URREGO-->
+  <div class="modal fade" id="btn-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">Fundación Sergio Urrego</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+
+  <div class="modal-body">
+
+<center>        
+          <h6>Este es un programa, impulsado por la Fundación Santo Domingo y la Fundación Santa Fé de Bogotá, que ofrece apoyo emocional, asesoría psicológica y resolución de dudas sobre salud sexual en todo el país y de forma anónima. La atención es dada por profesionales de la salud mental a través de su canal telefónico o de WhastApp.</h6>
+          <br>
+          <h6>Horario 24/7 todo el año</h6>
+          <h6>Cubrimiento: Naciónal</h6>
+          <br>
+          <H1>ELIGE EL MODO QUE SUIERES USAR</H1> 
+          <br>
+</center>
+
+<!--botones sergio urrego-->
+<div class="modal-footer">
+<div id="botonesdiv">
+
+            <a href="https://api.whatsapp.com/send?phone=+573117668666&text=Necesito%20ayuda">
+            <button type="button" class="btn btn-success m-3 mt-3"><h3><i class="fa-brands fa-whatsapp"></i></h3></button>
+            </a>
+          
+            <a href="tel:311 766 86 66">
+            <button type="button" class="btn btn-success m-3 mt-3"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+            </a>
+  
+            <a href="mailto:hablamoscontigo@sergiourrego.org">
+            <button type="button" class="btn btn-success m-3 mt-3"><h3><i class="fa-solid fa-envelope"></i></h3></button></i>
+            </a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--botones sergio urrego-->
+
+<!-- MODAL 7 CUPS-->
+    <div class="modal fade" id="btn-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">7 CUPS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>       
+        <h6>7 Cups es una plataforma mundial que funciona a través de voluntarios entrenados para atender crisis de salud mental. No importa el tema o el problema que esté afectando su vida, en 7 Cups encontrará alguien que lo escuche y lo aconseje a través de un chat que está disponible las 24 horas del día. También puede convertirse en voluntario en el papel de oyente si así lo desea.</h6>
+        <br>
+        <h6>Horario 24/7 todo el año</h6>
+        <h6>Cubrimiento: Internaciónal</h6>
+        <br>
+        <H1>ELIGE EL MODO QUE SUIERES USAR</H1> 
+        </div>
+</center>
+      
+<!--botones 7 cups-->
+<div class="modal-footer">
+<div id="botonesdiv">
+           
+            <a href="tel:844 755 8557">
+            <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+            </a>
+
+            <a href="https://www.7cups.com/es/">
+            <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-at"></i></h3></button></i>
+            </a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--botones 7 cups-->
+
+<!-- MODAL LINEA PSICOACTIVA-->
+    <div class="modal fade" id="btn-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LÍNEA PSICOACTIVA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>                
+        <h6>Esta línea de la Secretaría Distrital de Salud brinda información, orientación y ayuda psicológica en torno al consumo de sustancias psicoactivas. Es un espacio de escucha confidencial conformado por profesionales en psicología especializados en el tema y que buscan la mitigación de riesgos físicos y mentales derivados del consumo irresponsable de sustancias psicoactivas.</h6>
+        <br>
+        <h6>Horario: domingo a domingo (incluidos los días festivos) de 7:30 am a 10:30 pm en jornada continua</h6>
+        <h6>Cubrimiento: Bogotá</h6> 
+        <br>
+        <H1>ELIGE EL MODO QUE SUIERES USAR</H1> 
+        </div>
+</center>
+
+<!--botones linea psicoactiva-->      
+<div class="modal-footer">
+<div id="botonesdiv">
+
+            <a href="https://api.whatsapp.com/send?phone=+573012761197&text=Necesito%20ayuda">
+            <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-brands fa-whatsapp"></i></h3></button>
+            </a>
+  
+            <a href="tel:01 8000 11 24 39">
+            <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+            </a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--botones linea psicoactiva-->
+
+<!-- MODAL POR QUE QUIERO ESTAR BIEN-->
+    <div class="modal fade" id="btn-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PORQUE QUIERO ESTAR BIEN</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>                
+        <h6>Este es un programa, impulsado por la Fundación Santo Domingo y la Fundación Santa Fé de Bogotá, que ofrece apoyo emocional, asesoría psicológica y resolución de dudas sobre salud sexual en todo el país y de forma anónima. La atención es dada por profesionales de la salud mental a través de su canal telefónico o de WhastApp.</h6>
+        <br>
+        <h6>Horario: 24/7 todo el año</h6>
+        <h6>Cubrimiento: Bogotá</h6>
+        <br>
+        <H1>ELIGE EL MODO QUE SUIERES USAR</H1>  
+        </div>
+</center>
+
+<!--botones porque quiero estar bien-->      
+<div class="modal-footer">
+<div id="botonesdiv">   
+
+            <a href="https://api.whatsapp.com/send?phone=+5733303333588&text=Necesito%20ayuda">
+            <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-brands fa-whatsapp"></i></h3></button>
+            </a>
+  
+            <a href="tel:333 0333 35 88">
+            <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+            </a>
+
+            <a href="mailto:porquequieroestarbien@gmail.com">
+            <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-envelope"></i></h3></button></i>
+            </a>
+
+</div>        
+</div>
+</div>
+</div>
+</div>
+<!--botones porque quiero estar bien-->
+
+<!-- MODAL LINEA CALMA-->
+    <div class="modal fade" id="btn-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LÍNEA CALMA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>
+        <h6>la Línea Calma llega con nuevas facetas para seguir beneficiando a todos los hombres mayores de 18 años que vivan en Bogotá y necesiten ayuda para tramitar mejor sus propias emociones, para prevenir la violencia de género, o para resolver situaciones de conflicto emocional con otras personas como sus parejas, familias o amigos. </h6>
+        <br>
+        <h6>Horario: lunes a viernes de 8:00am a 8:00pm. Sábados de 8:00pm a 12:00pm</h6>
+        <h6>Cubrimiento: Bogotá</h6>
+        <br>
+        <H1>ELIGE EL MODO QUE SUIERES USAR</H1>  
+        </div>
+</center>
+      
+<!--botones linea calma-->
+<div class="modal-footer">
+<div id="botonesdiv">   
+
+          <a href="tel:01 8000 423 614">
+          <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+          </a>
+
+</div>       
+</div>        
+</div>
+</div>
+</div>
+</div>
+<!--botones linea calma-->
+
+<!-- MODAL NO ESTAMOS SOLOS-->
+    <div class="modal fade" id="btn-9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">NO ESTAMOS SOLOS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>
+        <h6>Tenemos expertos que te escuchan y orientan en el cuidado de tu salud mental y la de tu familia, atención para niños, niñas, adolescentes, y adultos de todas las edades quienes pueden recibir escucha y apoyo psicológico por parte de la secretaría distrital de salud.</h6>
+        <br>
+        <h6>Horario: 24/7 todo el año</h6>
+        <h6>Cubrimiento: Bogotá</h6>
+        <br>
+        <H1>ELIGE EL MODO QUE SUIERES USAR</H1>
+        </div>
+</center>
+      
+<!--BOTONES NO ESTAMOS SOLOS-->
+<div class="modal-footer">
+<div id="botonesdiv">   
+
+    <a href="https://api.whatsapp.com/send?phone=+573007548933&text=Necesito%20ayuda">
+    <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-brands fa-whatsapp"></i></h3></button>
+    </a>
+
+    <a href="tel:106">
+    <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+    </a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--BOTONES NO ESTAMOS SOLOS-->
+
+<!-- MODAL POLICIA NACIONAL-->
+<div class="modal fade" id="btn-10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">POLICIA NACIÓNAL</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>
+        <h6>La función pública atribuida a los policías tiene como principales objetivos mantener la seguridad y el orden en lugares públicos; hacer respetar las leyes y proteger a los ciudadanos y sus bienes de peligros y actos delictivos. En México, la función policial se divide en tres:24 municipal, estatal y federal.</h6>
+        <br>
+        <h6>Horario: 24/7 todo el año</h6>
+        <h6>Cubrimiento: Bogotá</h6>
+        <br>
+        <H1>ELIGE EL MODO QUE SUIERES USAR</H1>
+        </div>
+</center>
+      
+<!--BOTONES POLICIA NACIONAL-->
+<div class="modal-footer">
+<div id="botonesdiv">   
+
+    <a href="tel:112">
+    <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+    </a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--BOTONES POLICIA NACIONAL-->
+
+<!-- Modal 11-->
+<div class="modal fade" id="btn-11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>
+        <h6>La gestión integral del riesgo contra incendio, los preparativos y atención de rescates en todas sus modalidades y la atención de incidentes con materiales peligrosos, estarán a cargo de las instituciones Bomberiles y para todos sus efectos, constituyen un servicio público esencial a cargo del Estado.</h6>
+        <br>
+        <h6>Horario: 24/7 todo el año</h6>
+        <h6>Cubrimiento: Bogotá</h6>
+        <br>
+        <H1>ELIGE EL MODO QUE SUIERES USAR</H1>
+        </div>
+</center>
+      
+<!--BOTONES BOMBEROS-->
+<div class="modal-footer">
+<div id="botonesdiv">   
+
+    <a href="tel:119">
+    <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+    </a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--BOTONES BOMBEROS-->
+<!-- Modal 12-->
+<div class="modal fade" id="btn-12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">CRUZ ROJA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<center>
+        <h6>Su propósito es proteger la vida y la salud y hacer respetar a la vida humana. Promueve la comprensión mutua, la amistad, la cooperación y una paz duradera entre los pueblos. No hace ninguna distinción de nacionalidad, raza, religión, condición social ni credo político.</h6>
+        <br>
+        <h6>Horario: 24/7 todo el año</h6>
+        <h6>Cubrimiento: Bogotá</h6>
+        <br>
+        <H1>ELIGE EL MODO QUE SUIERES USAR</H1>
+        </div>
+</center>
+      
+<!--BOTONES CRUZ ROJA-->
+<div class="modal-footer">
+<div id="botonesdiv">   
+
+    <a href="tel:132">
+    <button type="button" class="btn btn-success m-3 mt-0"><h3><i class="fa-solid fa-phone"></i></h3></button></i>
+    </a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--BOTONES CRUZ ROJA-->
+
+<!--el poder de ser escuchado-->
+<!-- Modal 13-->
+<div class="modal fade" id="btn-13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">              
+                <h5 class="modal-title" id="exampleModalLabel">El poder de ser escuchado</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<center>
+          <h6>“El poder de ser escuchado” es una línea de ayuda, intervención psicosocial y/o soporte en crisis no presencial, atendido por un equipo de profesionales en psicología que brindan un espacio de escucha, orientación y apoyo emocional a toda la ciudadanía (de cualquier edad)</h6>
+          <br>
+          <h6>Horario 24/7 todo el año</h6>
+          <h6>Cubrimiento: Bogotá</h6> 
+          <br> 
+          <b><H1>ELIGE EL MODO QUE QUIERES USAR</H1></b>
+          </div>
+</center>     
+<!--botones de el poder de ser escuchado-->      
+<div class="modal-footer">
+<div id="botonesdiv">
+          <a href="https://api.whatsapp.com/send?phone=+573007548933&text=Necesito%20ayuda">
+            <button type="button" class="btn btn-success m-3 mt-0"><h1><i class="fa-brands fa-whatsapp"></i></i></h1></button>
+          </a>        
+          <a href="tel:106"><button type="button" class="btn btn-success m-3 mt-0"><h1><i class="fa-solid fa-phone"></i></h1></button></i>
+          </a>
+          <a href="mailto:linea106@saludcapital.gov.co."><button type="button" class="btn btn-success m-3 mt-0"><h1><i class="fa-solid fa-envelope"></i></h1></button>
+          </a> 
+</div> 
+</div>
+</div>
+</div>
+</div>   
+<!--botones de el poder de ser escuchado-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+</script>
+
+
+
+   
+
+    
+  
+</body>
+</html>
